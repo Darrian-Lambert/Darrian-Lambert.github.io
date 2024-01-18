@@ -8,7 +8,6 @@ header {
 
 h1, section h2, section h3, section h4{
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
 } 
 
 header ul {
@@ -54,4 +53,15 @@ main {
   margin-right: 20px;
   padding: 10px;
   border: 1px solid black;
+}
+
+.OCMaps {
+  text-align: center;
+}
+
+section img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 50%;
+  height: auto;
 }
