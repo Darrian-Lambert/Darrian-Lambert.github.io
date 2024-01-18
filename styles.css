@@ -49,4 +49,8 @@ body {
 
 main {
   padding-top: 100px;
+  border: 1%;
+  outline: 1px;
+  outline-width: 1px;
+  outline-color: black;
 }
