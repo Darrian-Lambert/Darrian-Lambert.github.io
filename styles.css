@@ -2,10 +2,13 @@ body  {
   background-color: rgb(124,187,251);
 }
 
+header {
+  background-color: rgb(104,167,231);
+}
+
 h1, section h2, section h3, section h4{
   text-align: center;
 } 
-
 
 header ul {
   list-style: none;
@@ -21,4 +24,23 @@ header li {
 header a {
   text-decoration: none;
   color: rgb(0,0,0);
+}
+
+header {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 100px;
 }
