@@ -48,9 +48,9 @@ body {
 }
 
 main {
-  padding-top: 100px;
-  border: 1%;
-  outline: 1px;
-  outline-width: 1px;
-  outline-color: black;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid black;
 }
