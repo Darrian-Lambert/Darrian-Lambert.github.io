@@ -27,6 +27,10 @@ header a {
   color: rgb(0,0,0);
 }
 
+header a:hover {
+  color: red;
+}
+
 header {
   margin: 0;
   border: 0;
