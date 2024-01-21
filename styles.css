@@ -72,3 +72,14 @@ footer {
   display: flex;
   bottom: 0;
 }
+
+footer p{
+  text-align: left;
+  margin-left: 20px;
+}
+
+#updated {
+  margin-left: auto;
+  margin-right: 20px;
+  text-align: right;
+}
