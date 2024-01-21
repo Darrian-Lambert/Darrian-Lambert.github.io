@@ -6,7 +6,7 @@ header, footer{
   background-color: rgb(104,167,231);
 }
 
-h1, section h2, section h3, section h4{
+h1, section h2, section h3, section h4, .WTime{
   text-align: center;
 } 
 
