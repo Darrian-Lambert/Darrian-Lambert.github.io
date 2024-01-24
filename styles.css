@@ -10,8 +10,14 @@ h1, section h2, section h3, section h4, .WTime{
   text-align: center;
 } 
 
-.menu-icon {
+
+.menu-icon::before {
   content: "\9776";
+  display: block;
+  cursor: pointer;
+}
+
+.menu-icon {
   display: none;
   cursor: pointer;
 }
