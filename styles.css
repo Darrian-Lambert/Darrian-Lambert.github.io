@@ -10,6 +10,11 @@ h1, section h2, section h3, section h4, .WTime{
   text-align: center;
 } 
 
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
 header ul {
   list-style: none;
   padding: 0;
@@ -82,4 +87,14 @@ footer p{
   margin-left: auto;
   margin-right: 20px;
   text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
 }
