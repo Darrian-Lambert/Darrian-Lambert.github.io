@@ -99,7 +99,13 @@ footer p{
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  /* Styles for medium screens */
+  #menu {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
