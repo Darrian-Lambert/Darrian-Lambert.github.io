@@ -88,8 +88,7 @@ footer p{
   margin-right: 20px;
   text-align: right;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   #menu {
     display: none;
   }
@@ -97,4 +96,16 @@ footer p{
   #menu-icon {
     display: block;
   }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* Styles for medium screens */
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Styles for large screens */
+}
+
+@media screen and (min-width: 993px) {
+  /* Styles for extra-large screens */
 }
