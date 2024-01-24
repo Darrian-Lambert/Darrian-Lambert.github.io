@@ -46,7 +46,7 @@ header {
   cursor: pointer;
 }
 
-.menu {
+#menu {
   display: none;
 }
 
@@ -94,11 +94,11 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
-  .menu {
+  #menu {
     display: none;
   }
 
-  .menu-icon {
+  #menu-icon {
     display: block;
   }
 }
