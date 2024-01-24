@@ -42,12 +42,8 @@ header {
 }
 
 #menu-icon {
-  display: block;
-  cursor: pointer;
-}
-
-#menu {
   display: none;
+  cursor: pointer;
 }
 
 body {
