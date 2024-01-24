@@ -1,0 +1,1 @@
+let sMenu = document.getElementById("menu-icon");
