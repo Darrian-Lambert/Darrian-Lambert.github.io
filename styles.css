@@ -10,10 +10,6 @@ h1, section h2, section h3, section h4, .WTime{
   text-align: center;
 } 
 
-.menu-toggle {
-  display: none;
-}
-
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -99,10 +95,6 @@ footer p{
   }
 
   .menu-icon {
-    display: block;
-  }
-
-  .menu-toggle:checked + .menu {
     display: block;
   }
 }
