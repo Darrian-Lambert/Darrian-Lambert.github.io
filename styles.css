@@ -97,6 +97,10 @@ footer p{
   #menu-icon {
     display: block;
   }
+
+  #complete img {
+    max-width: 80%;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
