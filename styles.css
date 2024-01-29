@@ -88,6 +88,7 @@ footer p{
   margin-right: 20px;
   text-align: right;
 }
+
 @media screen and (max-width: 576px) {
   #menu {
     display: none;
