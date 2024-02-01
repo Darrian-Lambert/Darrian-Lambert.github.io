@@ -46,6 +46,10 @@ header {
   cursor: pointer;
 }
 
+#skills p {
+  text-align: center;
+}
+
 body {
   margin: 0;
   border: 0;
@@ -120,9 +124,19 @@ footer p{
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  /* Styles for large screens */
+  .myImage img {
+    max-width: 40%;
+  }
 }
 
-@media screen and (min-width: 993px) {
-  /* Styles for extra-large screens */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .myImage img {
+    max-width: 30%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .myImage img {
+    max-width: 20%;
+  }
 }
