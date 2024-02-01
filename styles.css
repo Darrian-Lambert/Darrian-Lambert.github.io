@@ -95,11 +95,11 @@ footer p{
   }
 
   #menu-icon {
-    display: block;
+    display: block; 
   }
 
   .myImage img {
-    max-width: 80%;
+    max-width: 60%;
   }
 
   #complete img {
