@@ -74,6 +74,10 @@ section img {
   margin: 0 auto;
 }
 
+.cert p {
+  text-align: center;
+}
+
 footer {
   margin: 0;
   border: 0;
@@ -158,5 +162,13 @@ footer p{
     max-width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .cert{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .CI {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
   }
 }
