@@ -78,6 +78,23 @@ section img {
   text-align: center;
 }
 
+.cert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.cert img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
 footer {
   margin: 0;
   border: 0;
@@ -163,12 +180,12 @@ footer p{
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .cert{
+  /*.cert{
     display: flex;
     flex-wrap: wrap;
   }
   .CI {
     flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
-  }
+  }*/
 }
