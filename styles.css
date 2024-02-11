@@ -92,6 +92,7 @@ section img {
 .cert img {
   width: 100%;
   max-width: 300px;
+  object-fit: contain;
   height: auto;
   border-radius: 10px;
 }
