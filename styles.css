@@ -75,6 +75,14 @@ section img {
   margin: 0 auto;
 }
 
+#res img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .cert p {
   text-align: center;
 }
