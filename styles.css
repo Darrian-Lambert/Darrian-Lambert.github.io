@@ -26,10 +26,15 @@ header li {
 header a {
   text-decoration: none;
   color: rgb(0,0,0);
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 header a:hover {
-  color: red;
+  color: white;
+  background-color: black;
 }
 
 header {
@@ -125,6 +130,18 @@ footer p{
 }
 
 @media screen and (max-width: 576px) {
+
+  header li{
+    display: inline-block;
+    margin: 10px 0px;
+  }
+
+  header a {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+  
   #menu {
     display: none;
   }
@@ -145,6 +162,18 @@ footer p{
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+
+  header li{
+    display: inline-block;
+    margin: 10px 0px;
+  }
+
+  header a {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+
   #menu {
     display: none;
   }
@@ -160,6 +189,25 @@ footer p{
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+
+  header li{
+    display: inline-block;
+    margin: 10px 0px;
+  }
+
+  header a {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+  
+  #menu {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+  }
   .myImage img {
     max-width: 40%;
   }
