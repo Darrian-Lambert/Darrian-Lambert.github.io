@@ -108,6 +108,7 @@ section img {
   object-fit: contain;
   height: auto;
   border-radius: 10px;
+  border: 1px black solid;
 }
 
 footer {
@@ -200,7 +201,7 @@ footer p{
     padding: 6px 10px;
     border-radius: 4px;
   }
-  
+
   #menu {
     display: none;
   }
